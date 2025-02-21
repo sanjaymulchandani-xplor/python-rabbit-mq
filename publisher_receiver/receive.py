@@ -3,8 +3,9 @@ import pika, sys, os
 
 # Doc: https://www.rabbitmq.com/tutorials/tutorial-one-python#receiving
 def main():
-    rabbitmq_url = os.getenv("RABBITMQ_URL")
-    params = pika.URLParameters(rabbitmq_url)
+    params = pika.URLParameters(
+        "amqps://bfnqnkyk:0A_5b7lc8t8NhC1itQACXluDUlp6aRSR@puffin.rmq2.cloudamqp.com/bfnqnkyk"  # add your AMPQ Details URL here
+    )
     connection = pika.BlockingConnection(params)
     channel = connection.channel()
     channel.queue_declare(queue="sanjay-queue")
