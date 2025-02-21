@@ -1,6 +1,3 @@
-# python-rabbit-mq
-Learning how RabbitMQ works with Python
-
 ## Prerequisites
 Ensure you have the following installed before proceeding:
 - **Python**: Version > 3.9.6 ([Download Here](https://www.python.org/downloads/))
