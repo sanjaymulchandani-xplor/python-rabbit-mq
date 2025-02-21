@@ -34,7 +34,8 @@ Ensure you have the following installed before proceeding:
 5. **View Your RabbitMQ Instance**:
    - Once everything is set up, you can access your RabbitMQ instance.
 
-   ![RabbitMQ Instance](https://github.com/user-attachments/assets/d2f00a13-ac1a-4c27-91be-7af5dadfa8d5)
+   ![RabbitMQ Instance](https://github.com/user-attachments/assets/6d139b5e-51ae-4ecc-abd7-13d47a3c1e2f)
+
 
 ## How to Run This?
 - Watch [this](https://vimeo.com/1059109004) video for a demo of how to run this project.
